@@ -2,7 +2,7 @@ import calendar from "@/data/calendar.json";
 
 export default function CalendarPage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16">
+    <div className="max-w-7xl mx-auto px-6">
 
       <h1 className="text-3xl font-bold text-center mb-12">
         Medication Calendar
