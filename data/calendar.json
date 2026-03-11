@@ -1,0 +1,54 @@
+[
+  {
+    "day": "Mon",
+    "medications": [
+      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
+      {"name": "Metformin", "time": "01:00 PM", "status": "Pending"},
+      {"name": "Vitamin D", "time": "07:00 PM", "status": "Pending"}
+    ]
+  },
+  {
+    "day": "Tue",
+    "medications": [
+      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
+      {"name": "Paracetamol", "time": "12:00 PM", "status": "Taken"},
+      {"name": "Insulin", "time": "09:00 PM", "status": "Pending"}
+    ]
+  },
+  {
+    "day": "Wed",
+    "medications": [
+      {"name": "Metformin", "time": "01:00 PM", "status": "Pending"},
+      {"name": "Vitamin D", "time": "07:00 PM", "status": "Pending"}
+    ]
+  },
+  {
+    "day": "Thu",
+    "medications": [
+      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
+      {"name": "Paracetamol", "time": "12:00 PM", "status": "Missed"},
+      {"name": "Insulin", "time": "09:00 PM", "status": "Pending"}
+    ]
+  },
+  {
+    "day": "Fri",
+    "medications": [
+      {"name": "Metformin", "time": "01:00 PM", "status": "Taken"},
+      {"name": "Vitamin D", "time": "07:00 PM", "status": "Pending"}
+    ]
+  },
+  {
+    "day": "Sat",
+    "medications": [
+      {"name": "Amlodipine", "time": "08:00 AM", "status": "Pending"},
+      {"name": "Insulin", "time": "09:00 PM", "status": "Pending"}
+    ]
+  },
+  {
+    "day": "Sun",
+    "medications": [
+      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
+      {"name": "Metformin", "time": "01:00 PM", "status": "Taken"}
+    ]
+  }
+]

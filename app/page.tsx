@@ -1,65 +1,133 @@
-import Image from "next/image";
+import {
+  BellAlertIcon,
+  HeartIcon,
+  ShieldCheckIcon
+} from "@heroicons/react/24/outline";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="w-full">
+
+      {/* HERO SECTION */}
+      <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white">
+        <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+              Remote Health Monitoring for Independent Living
+            </h1>
+
+            <p className="mt-6 text-lg text-emerald-100">
+              CarePulse helps older adults manage medication routines,
+              track wellbeing, and keep carers informed through smart alerts.
+            </p>
+
+            <button className="mt-8 bg-orange-500 px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition">
+              Explore Features
+            </button>
+          </div>
+
+          <div className="bg-white/10 backdrop-blur rounded-xl p-8 text-center">
+            <p className="text-lg">
+              Supporting independence for older adults through medication
+              reminders and daily wellbeing monitoring.
+            </p>
+          </div>
+
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* FEATURES */}
+      <section className="max-w-7xl mx-auto px-6 py-20">
+
+        <h2 className="text-3xl font-bold text-center mb-12">
+          Core Features
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8">
+
+          <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md text-center">
+            <BellAlertIcon className="w-10 mx-auto text-emerald-600 mb-4"/>
+
+            <h3 className="font-semibold text-lg mb-2">
+              Medication Reminders
+            </h3>
+
+            <p className="text-gray-600 text-sm">
+              Automated reminders help patients remember medications
+              and track adherence.
+            </p>
+          </div>
+
+          <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md text-center">
+            <HeartIcon className="w-10 mx-auto text-emerald-600 mb-4"/>
+
+            <h3 className="font-semibold text-lg mb-2">
+              Daily Wellbeing Check
+            </h3>
+
+            <p className="text-gray-600 text-sm">
+              Simple daily check-ins allow carers to monitor
+              patient wellbeing remotely.
+            </p>
+          </div>
+
+          <div className="bg-white border rounded-xl p-6 shadow-sm hover:shadow-md text-center">
+            <ShieldCheckIcon className="w-10 mx-auto text-emerald-600 mb-4"/>
+
+            <h3 className="font-semibold text-lg mb-2">
+              Support Level Alerts
+            </h3>
+
+            <p className="text-gray-600 text-sm">
+              Patient status is categorised into Green, Amber,
+              or Red levels for quick intervention.
+            </p>
+          </div>
+
         </div>
-      </main>
+      </section>
+
+      {/* USERS */}
+      <section className="bg-gray-50 py-20">
+
+        <div className="max-w-7xl mx-auto px-6">
+
+          <h2 className="text-3xl font-bold text-center mb-12">
+            Who CarePulse Helps
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+
+            <div className="bg-white p-6 rounded-xl shadow-sm border">
+              <h3 className="font-semibold text-lg mb-2">Older Adults</h3>
+              <p className="text-gray-600 text-sm">
+                Helps elderly individuals manage medications and
+                maintain independence while living at home.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-sm border">
+              <h3 className="font-semibold text-lg mb-2">Family Carers</h3>
+              <p className="text-gray-600 text-sm">
+                Allows carers to monitor wellbeing and receive alerts
+                without constant check-ins.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-sm border">
+              <h3 className="font-semibold text-lg mb-2">Healthcare Workers</h3>
+              <p className="text-gray-600 text-sm">
+                Enables nurses and support workers to identify
+                patients needing attention.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
     </div>
   );
 }
