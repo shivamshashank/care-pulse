@@ -1,5 +1,13 @@
 [
   {"id":1,"name":"Amlodipine","time":"08:00 AM","status":"Taken"},
   {"id":2,"name":"Metformin","time":"12:00 PM","status":"Pending"},
-  {"id":3,"name":"Vitamin D","time":"07:00 PM","status":"Pending"}
+  {"id":3,"name":"Vitamin D","time":"07:00 PM","status":"Pending"},
+  {"id":4,"name":"Lisinopril","time":"08:00 AM","status":"Taken"},
+  {"id":5,"name":"Lipitor","time":"08:00 PM","status":"Pending"},
+  {"id":6,"name":"Ibuprofen","time":"12:00 PM","status":"Taken"},
+  {"id":7,"name":"Paracetamol","time":"04:00 PM","status":"Pending"},
+  {"id":8,"name":"Aspirin","time":"08:00 AM","status":"Taken"},
+  {"id":9,"name":"Omeprazole","time":"09:00 PM","status":"Pending"},
+  {"id":10,"name":"Insulin","time":"07:00 PM","status":"Taken"},
+  {"id":11,"name":"Simvastatin","time":"09:00 PM","status":"Pending"}
 ]

@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "User1",
+    "medications": [
+      {"name": "Amlodipine", "time": "08:00 AM"},
+      {"name": "Metformin", "time": "01:00 PM"},
+      {"name": "Lipitor", "time": "08:00 PM"}
+    ],
+    "calendar": [
+      {"day": "Mon", "med": "Amlodipine"},
+      {"day": "Tue", "med": "Metformin"},
+      {"day": "Wed", "med": "Lipitor"},
+      {"day": "Thu", "med": "Amlodipine"},
+      {"day": "Fri", "med": "Metformin"},
+      {"day": "Sat", "med": "Lipitor"},
+      {"day": "Sun", "med": "Amlodipine"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "User2",
+    "medications": [
+      {"name": "Vitamin D", "time": "09:00 AM"},
+      {"name": "Lisinopril", "time": "03:00 PM"}
+    ],
+    "calendar": [
+      {"day": "Mon", "med": "Vitamin D"},
+      {"day": "Tue", "med": "Lisinopril"},
+      {"day": "Wed", "med": "Vitamin D"},
+      {"day": "Thu", "med": "Lisinopril"},
+      {"day": "Fri", "med": "Vitamin D"},
+      {"day": "Sat", "med": "Lisinopril"},
+      {"day": "Sun", "med": "Vitamin D"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "User3",
+    "medications": [
+      {"name": "Paracetamol", "time": "10:00 AM"},
+      {"name": "Ibuprofen", "time": "04:00 PM"}
+    ],
+    "calendar": [
+      {"day": "Mon", "med": "Paracetamol"},
+      {"day": "Tue", "med": "Ibuprofen"},
+      {"day": "Wed", "med": "Paracetamol"},
+      {"day": "Thu", "med": "Ibuprofen"},
+      {"day": "Fri", "med": "Paracetamol"},
+      {"day": "Sat", "med": "Ibuprofen"},
+      {"day": "Sun", "med": "Paracetamol"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "User4",
+    "medications": [
+      {"name": "Aspirin", "time": "08:00 AM"},
+      {"name": "Omeprazole", "time": "09:00 PM"}
+    ],
+    "calendar": [
+      {"day": "Mon", "med": "Aspirin"},
+      {"day": "Tue", "med": "Omeprazole"},
+      {"day": "Wed", "med": "Aspirin"},
+      {"day": "Thu", "med": "Omeprazole"},
+      {"day": "Fri", "med": "Aspirin"},
+      {"day": "Sat", "med": "Omeprazole"},
+      {"day": "Sun", "med": "Aspirin"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "User5",
+    "medications": [
+      {"name": "Insulin", "time": "07:00 PM"},
+      {"name": "Simvastatin", "time": "09:00 PM"}
+    ],
+    "calendar": [
+      {"day": "Mon", "med": "Insulin"},
+      {"day": "Tue", "med": "Simvastatin"},
+      {"day": "Wed", "med": "Insulin"},
+      {"day": "Thu", "med": "Simvastatin"},
+      {"day": "Fri", "med": "Insulin"},
+      {"day": "Sat", "med": "Simvastatin"},
+      {"day": "Sun", "med": "Insulin"}
+    ]
+  }
+]

@@ -1,54 +1,9 @@
 [
-  {
-    "day": "Mon",
-    "medications": [
-      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
-      {"name": "Metformin", "time": "01:00 PM", "status": "Pending"},
-      {"name": "Vitamin D", "time": "07:00 PM", "status": "Pending"}
-    ]
-  },
-  {
-    "day": "Tue",
-    "medications": [
-      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
-      {"name": "Paracetamol", "time": "12:00 PM", "status": "Taken"},
-      {"name": "Insulin", "time": "09:00 PM", "status": "Pending"}
-    ]
-  },
-  {
-    "day": "Wed",
-    "medications": [
-      {"name": "Metformin", "time": "01:00 PM", "status": "Pending"},
-      {"name": "Vitamin D", "time": "07:00 PM", "status": "Pending"}
-    ]
-  },
-  {
-    "day": "Thu",
-    "medications": [
-      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
-      {"name": "Paracetamol", "time": "12:00 PM", "status": "Missed"},
-      {"name": "Insulin", "time": "09:00 PM", "status": "Pending"}
-    ]
-  },
-  {
-    "day": "Fri",
-    "medications": [
-      {"name": "Metformin", "time": "01:00 PM", "status": "Taken"},
-      {"name": "Vitamin D", "time": "07:00 PM", "status": "Pending"}
-    ]
-  },
-  {
-    "day": "Sat",
-    "medications": [
-      {"name": "Amlodipine", "time": "08:00 AM", "status": "Pending"},
-      {"name": "Insulin", "time": "09:00 PM", "status": "Pending"}
-    ]
-  },
-  {
-    "day": "Sun",
-    "medications": [
-      {"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"},
-      {"name": "Metformin", "time": "01:00 PM", "status": "Taken"}
-    ]
-  }
+  {"day": "Mon", "medications": [{"name": "Amlodipine", "time": "08:00 AM", "status": "Taken"}, {"name": "Lipitor", "time": "08:00 PM", "status": "Pending"}]},
+  {"day": "Tue", "medications": [{"name": "Metformin", "time": "01:00 PM", "status": "Taken"}]},
+  {"day": "Wed", "medications": [{"name": "Vitamin D", "time": "09:00 AM", "status": "Taken"}, {"name": "Lisinopril", "time": "03:00 PM", "status": "Pending"}]},
+  {"day": "Thu", "medications": [{"name": "Paracetamol", "time": "10:00 AM", "status": "Taken"}, {"name": "Ibuprofen", "time": "04:00 PM", "status": "Pending"}]},
+  {"day": "Fri", "medications": [{"name": "Aspirin", "time": "08:00 AM", "status": "Taken"}]},
+  {"day": "Sat", "medications": [{"name": "Omeprazole", "time": "09:00 PM", "status": "Pending"}]},
+  {"day": "Sun", "medications": [{"name": "Insulin", "time": "07:00 PM", "status": "Taken"}, {"name": "Simvastatin", "time": "09:00 PM", "status": "Pending"}]}
 ]
