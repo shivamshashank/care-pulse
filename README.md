@@ -1,6 +1,6 @@
 # CarePulse – Remote Health Monitoring Platform
 
-CarePulse is a healthcare web application designed to support **older adults living independently** by helping them manage medication schedules and monitor daily wellbeing. The platform allows carers and healthcare workers to stay informed through reminders, alerts, and simple health tracking tools.
+CarePulse is a healthcare web application designed to support **older adults living independently** by helping them manage medication schedules and monitor daily wellbeing. The platform now supports multiple users and includes a dedicated **Carer Dashboard** for remote monitoring. Carers and healthcare workers can stay informed through reminders, alerts, and simple health tracking tools.
 
 This project was developed as part of an **Agile Product Portfolio**, focusing on user-centred design and digital health support systems.
 
@@ -17,6 +17,9 @@ Displays a weekly calendar view showing scheduled medications and their status.
 ## Daily Wellbeing Monitoring
 Allows users to perform quick wellbeing check-ins to monitor their health status.
 
+## Carer Dashboard
+A dedicated dashboard for carers to monitor the wellbeing and medication adherence of multiple users.
+
 ## Support Level Alerts
 Patient wellbeing is categorized into **Green, Amber, or Red** levels to identify when additional support is required.
 
@@ -25,15 +28,26 @@ Alerts carers if medications are missed or if wellbeing status changes.
 
 ---
 
+# User Roles
+
+The application supports two main user roles:
+
+-   **User:** An individual managing their own medication and wellbeing. The app can support up to 5 users.
+-   **Carer:** A person who monitors the users' activities and wellbeing through the Carer Dashboard.
+
+---
+
 # Pages Implemented
 
 The application includes the following pages:
 
-- Home Page
-- About Page
-- Contact Page
-- Medication Reminder Page
-- Medication Calendar Page
+-   Home Page
+-   About Page
+-   Contact Page
+-   Sign In Page
+-   Medication Reminder Page
+-   Medication Calendar Page
+-   Carer Dashboard
 
 ---
 
@@ -54,22 +68,34 @@ The application includes the following pages:
 
 ---
 
-## Medication Reminder
-![Medication Reminder](screenshots/reminder_page.png)
+## Sign In Page
+On the sign-in page, you can choose from `user1` to `user5` and `carer`.
+![Sign In Page](screenshots/sign_in_page.png)
 
 ---
 
-## Medication Calendar
-![Calendar Page](screenshots/calendar_page.png)
+## Carer Dashboard
+The carer dashboard provides an overview of all users' medication and wellbeing status.
+![Carer Dashboard](screenshots/carer_dashboard.png)
+
+---
+
+## Medication
+![Medication](screenshots/medication.png)
+
+---
+
+## Calendar
+![Calendar](screenshots/calendar.png)
 
 ---
 
 # Tech Stack
 
-- **Next.js**
-- **React**
-- **Tailwind CSS**
-- **JSON (dummy data)**
+-   **Next.js**
+-   **React**
+-   **Tailwind CSS**
+-   **JSON (dummy data)** for multiple users and carer.
 
 ---
 
@@ -82,9 +108,12 @@ care-pulse/
 │   ├── page.tsx
 │   ├── about/
 │   │   └── page.tsx
+│   ├── carer/
+│   │   └── page.tsx
 │   ├── components/
 │   │   ├── Footer.tsx
-│   │   └── Navbar.tsx
+│   │   ├── Navbar.tsx
+│   │   └── Sidebar.tsx
 │   ├── contact/
 │   │   └── page.tsx
 │   ├── features/
@@ -92,9 +121,14 @@ care-pulse/
 │   │   │   └── page.tsx
 │   │   └── medication-reminder/
 │   │       └── page.tsx
+│   └── user/
+│       ├── calendar.tsx
+│       ├── medication.tsx
+│       └── page.tsx
 ├── data/
 │   ├── calendar.json
-│   └── medications.json
+│   ├── medications.json
+│   └── users.json
 ├── public/
 │   ├── file.svg
 │   ├── globe.svg
@@ -103,12 +137,13 @@ care-pulse/
 │   └── window.svg
 ├── screenshots/
 │   ├── about_page.png
-│   ├── calendar_page.png
+│   ├── calendar.png
+│   ├── carer_dashboard.png
 │   ├── contact_page.png
 │   ├── home_page.png
-│   └── reminder_page.png
+│   ├── medication.png
+│   └── sign_in_page.png
 ├── eslint.config.mjs
-├── next-env.d.ts
 ├── next.config.ts
 ├── package.json
 ├── postcss.config.mjs
@@ -121,22 +156,21 @@ care-pulse/
 
 Follow these steps to run the project locally:
 
-1. **Clone the repository:**
-	```bash
-	git clone https://github.com/shivamshashank/care-pulse
-	cd care-pulse
-	```
-2. **Install dependencies:**
-	```bash
-	npm install
-	```
-3. **Run the development server:**
-	```bash
-	npm run dev
-	```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/shivamshashank/care-pulse
+    cd care-pulse
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 # License
 
 This project is licensed under the MIT License.
-
