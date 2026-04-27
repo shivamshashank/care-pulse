@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
+import SOSButton from "@/app/components/SOSButton";
 
 export default function RootLayout({
   children,
@@ -18,6 +19,7 @@ export default function RootLayout({
         </main>
 
         <Footer />
+        <SOSButton />
 
       </body>
     </html>
