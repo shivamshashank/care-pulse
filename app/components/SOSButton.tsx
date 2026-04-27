@@ -1,7 +1,5 @@
 "use client";
 
-import React from "react";
-
 export default function SOSButton() {
     const handleEmergency = () => {
         // In a production app, this would make a POST request to your backend to trigger:
@@ -12,11 +10,11 @@ export default function SOSButton() {
     };
 
     return (
-        <div className="fixed bottom-8 right-8 z-50 group flex flex-col items-end">
+        <div className="fixed bottom-8 left-8 z-50 group flex flex-col items-start">
             {/* Popup message tooltip */}
-            <div className="pointer-events-none absolute bottom-full right-0 mb-4 w-max opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg bg-gray-800 px-3 py-1.5 text-sm font-medium text-white shadow-lg">
+            <div className="pointer-events-none absolute bottom-full left-0 mb-4 w-max opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-lg bg-gray-800 px-3 py-1.5 text-sm font-medium text-white shadow-lg">
                 Emergency SOS
-                <div className="absolute -bottom-1 right-6 h-3 w-3 rotate-45 bg-gray-800"></div>
+                <div className="absolute -bottom-1 left-6 h-3 w-3 rotate-45 bg-gray-800"></div>
             </div>
 
             <button
